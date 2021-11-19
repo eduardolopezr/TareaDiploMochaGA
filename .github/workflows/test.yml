@@ -28,4 +28,4 @@ jobs:
       - name: Instalando Dependencias
         run: npm install
       - name: Ejecuta los test de nuestro proyecto
-        run: npm run test/*
+        run: npm run test
