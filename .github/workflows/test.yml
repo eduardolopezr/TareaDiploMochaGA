@@ -1,7 +1,4 @@
-name: Tests
-'on':
-  push:
-    - main
+
 jobs:
   test:
     name: 'Nodejs v${{ matrix.node }}'
